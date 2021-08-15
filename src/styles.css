@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: rgba(0, 0, 255, 0.644);
+}
+
+h2 {
+  color: rgba(0, 0, 255, 0.603);
+}
