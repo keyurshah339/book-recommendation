@@ -4,35 +4,44 @@ import "./styles.css";
 var dataBase = {
   Action: [
     {
-      MovieName: "Gone Girl"
+      MovieName: "Gone Girl",
+      Rating: "4/5"
     },
     {
-      MovieName: "Da Vinci Code"
+      MovieName: "Da Vinci Code",
+      Rating: "5/5"
     },
     {
-      MovieName: "Shoe - Dog"
+      MovieName: "Shoe - Dog",
+      Rating: "5/5"
     }
   ],
   Fiction: [
     {
-      MovieName: "Pride and Prejudice"
+      MovieName: "Pride and Prejudice",
+      Rating: "3/5"
     },
     {
-      MovieName: "Lord of the Rings"
+      MovieName: "Lord of the Rings",
+      Rating: "5/5"
     },
     {
-      MovieName: "Moby Dick"
+      MovieName: "Moby Dick",
+      Rating: "4.5/5"
     }
   ],
   Horror: [
     {
-      MovieName: "The Exorcist"
+      MovieName: "The Exorcist",
+      Rating: "3/5"
     },
     {
-      MovieName: "Dracula"
+      MovieName: "Dracula",
+      Rating: "3.5/5"
     },
     {
-      MovieName: "IT"
+      MovieName: "IT",
+      Rating: "4/5"
     }
   ]
 };
@@ -91,7 +100,7 @@ export default function App() {
                     padding: "1rem",
                     borderRadius: "0.5rem",
                     maxWidth: "80%",
-                    color: "aqua"
+                    color: "black"
                   }}
                 >
                   {" "}
@@ -102,6 +111,7 @@ export default function App() {
                     }}
                   >
                     {yolo.MovieName}
+                    <div style={{ color: "white" }}>{yolo.Rating}</div>
                   </div>
                 </li>
               </ul>
